@@ -284,6 +284,7 @@ body {background: url(.././images/header_bg.jpg) repeat-x center top;}
 
 /* Notice */
 /* 게시판1 */
+.notice1 {position: relative;}
 .notice1 h5 {
     font-size: 14px; 
     color: #2f7fa6; 
@@ -350,6 +351,20 @@ body {background: url(.././images/header_bg.jpg) repeat-x center top;}
     font-size: 10px;
     color: #878787;
 }
+
+/* Blog */
+/* 블로그1 */
+.blog1 img {width: 100%;}
+.blog1 .img-retina {display: none;}
+@media only screen and (-webkit-min-device-pixel-retio: 1.5),
+       only screen and (min-device-pixel-ratio: 1.5),
+       only screen and (min-resolution: 1.5dppx) {
+           .blog1 .img-retina {display: initial;}
+           .blog1 .img-normal {display: none;}
+       }
+
+/* 블로그2 */
+.blog2
 
 /* margin padding */
 .mt10 {margin-top: 10px !important;}
