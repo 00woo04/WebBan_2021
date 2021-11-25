@@ -9,7 +9,7 @@
     <!-- css -->
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/font-awesome.css">
-    <link rel="stylesheet" href="./css/slick.css">
+    <link rel="stylesheet"  type="text/css" href="./css/slick.css">
     
     <!-- font -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nanum+Gothic">
@@ -141,7 +141,7 @@
                 <section id="cont_left">
                     <h3 class="ir_su">왼쪽 컨텐츠</h3>
                     <article class="column col1">
-                        <h4 class="col_tit">왼쪽 컨텐츠1</h4>
+                        <h4 class="col_tit">Menu</h4>
                         <p class="col_desc">box-shadow 효과</p>
                         <!-- 메뉴 -->
                         <div class="menu">
@@ -215,11 +215,11 @@
                         <p class="col_desc">slick.js를 이용한 이미지 슬라이드 효과</p>
                         <!-- 내용 -->
                         <div class="slider">
-                            <div><img src="./images/slider01.jpg" alt="이미지1" width="100%"></div>
-                            <div><img src="./images/slider02.jpg" alt="이미지2" width="100%"></div>
-                            <div><img src="./images/slider03.jpg" alt="이미지3" width="100%"></div>
+                            <div><img src="./images/slider01.jpg" alt="이미지1"></div>
+                            <div><img src="./images/slider02.jpg" alt="이미지2"></div>
+                            <div><img src="./images/slider03.jpg" alt="이미지3"></div>
                         </div>
-                    </article>    
+                    </article>
 
                     <article class="column col5">
                         <h4 class="col_tit">가운데 컨텐츠2</h4>
@@ -270,26 +270,6 @@
     </footer>
 
     <!-- script -->
-    <script>
-        // 이미지 슬라이더
-
-        $(".slider").slick({
-            dots:true,
-            autoplay:true,
-            autoplaySpeed: 3000,
-            arrows:false,
-            responsive:[
-                {
-                    breakpoint:768,
-                    settings:{
-                        arrows:true,
-                        dots:false
-                    }
-                }
-            ]
-        });
-    </script>
-    
     <script src="./script/jquery.min_1.12.4.js"></script>
     <script src="./script/slick.min.js"></script>
     <script src="./script/script.js"></script>
