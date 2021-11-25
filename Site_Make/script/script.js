@@ -1,8 +1,7 @@
-// 이미지 슬라이더 
 $(".slider").slick({
-    dots:true, 
+    dots:true,
     autoplay:true,
-    autoplayspeed:3000,
+    autoplaySpeed: 3000,
     arrows:false,
     responsive:[
         {
