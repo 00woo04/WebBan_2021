@@ -482,6 +482,10 @@ img {width: 100%;}
     top: 8px;
 }
 
+/* lightbox (blend effect) */
+.square a {float: left; width: 19%; margin: 0.5%;}
+.square a img {width: 100%; display: block;}
+
 /* margin padding */
 .mt10 {margin-top: 10px !important;}
 .mt15 {margin-top: 15px !important;}
@@ -503,6 +507,9 @@ img {width: 100%;}
     #contents .container {border: 0;}
     
     .title .btn {right: 15px;}
+
+    .square a {width: 24%;}
+    .square a:nth-child(5n) {display: none;}
 }
 
 /* 화면 너비 0~1024px */
@@ -564,6 +571,9 @@ img {width: 100%;}
     }
     .column.col2 {background: #fff;}
     .column.col4 {border-top: 1px solid #dbdbdb;}
+
+    .square a {width: 49%;}
+    .square a:nth-child(5) {display: none;}
 }
 
 /* 화면 너비 0~480px */

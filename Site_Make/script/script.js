@@ -1,3 +1,4 @@
+// image slider
 $(".slider").slick({
     dots:true,
     autoplay:true,
@@ -12,4 +13,13 @@ $(".slider").slick({
             }
         }
     ]
+});
+
+
+// lightbox (blend effect)
+$(".lightbox").lightGallery({
+    thumbnail: true,
+    autoplay: true,
+    pause: 3000,
+    progressBar: true
 });
