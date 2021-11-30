@@ -16,10 +16,11 @@ $(".slider").slick({
 });
 
 
-// lightbox (blend effect)
+// 라이트박스
 $(".lightbox").lightGallery({
     thumbnail: true,
     autoplay: true,
     pause: 3000,
     progressBar: true
 });
+

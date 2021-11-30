@@ -486,6 +486,17 @@ img {width: 100%;}
 .square a {float: left; width: 19%; margin: 0.5%;}
 .square a img {width: 100%; display: block;}
 
+/* clearfix */
+.clearfix{*zoom:1;}
+.clearfix:before, .clearfix:after {display: block; content: '';line-height: 0;}
+.clearfix:after {clear: both;}
+
+/* 라이트박스 */
+.square a {float: left; width: 19%; margin: 0.5%;}
+.square a img {width: 100%; display: block;}
+
+
+
 /* margin padding */
 .mt10 {margin-top: 10px !important;}
 .mt15 {margin-top: 15px !important;}
